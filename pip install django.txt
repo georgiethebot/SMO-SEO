@@ -1,0 +1,6 @@
+pip install django
+django-admin startproject obituary_platform
+cd obituary_platform
+django-admin startapp obituaries
+python manage.py makemigrations
+python manage.py migrate
